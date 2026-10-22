@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dmytro Hulchak: automatizace a webové systémy pro firmy</title>
+<meta name="description" content="Automatizuji rutinu ve firmách: sběr cen a dat, upozornění, CRM, platby, obsah. Nápad a plán probereme zdarma, realizace je zvlášť.">
+<link rel="canonical" href="https://hulchakk.github.io/cs/">
+<link rel="alternate" hreflang="uk" href="https://hulchakk.github.io/">
+<link rel="alternate" hreflang="cs" href="https://hulchakk.github.io/cs/">
+<link rel="alternate" hreflang="en" href="https://hulchakk.github.io/en/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Automatizace a webové systémy pro firmy">
+<meta property="og:description" content="Sběr cen a dat, CRM, platby, obsah. Nápad a plán probereme zdarma.">
+<meta property="og:image" content="https://hulchakk.github.io/img/og.png">
+<meta property="og:url" content="https://hulchakk.github.io/cs/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="logo" href="/cs/">Dmytro Hulchak</a>
+    <div class="right">
+      <nav class="lang" aria-label="Jazyk">
+        <a href="/">UA</a><a href="/cs/" aria-current="page">CS</a><a href="/en/">EN</a>
+      </nav>
+      <a class="btn small" href="https://t.me/dmytrohulchak">Napsat na Telegram</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Automatizuji rutinu ve vaší firmě</h1>
+      <p class="lead">Sběr cen a dat, upozornění, CRM, platby, obsah: vše, co dnes děláte ručně, může fungovat samo.</p>
+      <div class="actions">
+        <a class="btn" href="https://t.me/dmytrohulchak">Probrat nápad zdarma</a>
+        <a class="btn ghost" href="#cases">Podívat se na práce</a>
+      </div>
+      <p class="free">Rozhovor o vašem nápadu a plán projektu jsou zdarma. Platíte až za realizaci, a to teprve poté, co plán schválíte.</p>
+    </div>
+    <img class="photo" src="/img/photo.jpg" alt="Dmytro Hulchak" width="360" height="360">
+  </div>
+</section>
+
+<section class="alt" id="services">
+  <div class="wrap">
+    <div class="kicker">Co dělám</div>
+    <h2>Sedm úkolů, se kterými za mnou chodí nejčastěji</h2>
+    <div class="grid three">
+      <div class="card">
+        <span class="tag">Realitní kanceláře, obchody</span>
+        <h3>Sledování cen a trhu</h3>
+        <p><b>Problém:</b> ceny konkurence a nové nabídky se sledují ručně.</p>
+        <p><b>Řešení:</b> program sám sbírá ceny a nabídky z vybraných webů, porovnává je a posílá vám je na Telegram nebo do tabulky.</p>
+        <p class="proof">Zda půjdou zpracovat právě vaše weby, ověříme při bezplatné konzultaci.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Výroba, podniky</span>
+        <h3>Automatizace zařízení</h3>
+        <p><b>Problém:</b> hodnoty (teplota, vibrace, počitadla) se zapisují ručně a o poruše se dozvíte pozdě.</p>
+        <p><b>Řešení:</b> sbírám data ze senzorů přes MQTT (Mosquitto, paho-mqtt), ukládám záznamy a posílám upozornění, když se něco vymkne normě.</p>
+        <p class="proof">Hodí se, pokud zařízení už data posílá nebo se k němu dá připojit senzor.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Studia, obchody, školy</span>
+        <h3>Obsah bez každodenní rutiny</h3>
+        <p><b>Problém:</b> příspěvky a videa zabírají hodinu denně.</p>
+        <p><b>Řešení:</b> služba vezme událost, produkt nebo zprávu, AI napíše text a vytvoří obrázek nebo video. Vy jen schválíte, nebo necháte publikovat automaticky.</p>
+        <p class="proof">Příklad: zpravodajský kanál níže.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Školy, studia, řemeslníci</span>
+        <h3>CRM a evidence</h3>
+        <p><b>Problém:</b> klienti, rozvrh a permanentky žijí v sešitě nebo v Excelu.</p>
+        <p><b>Řešení:</b> webový systém s klienty, rozvrhem bez kolizí, zůstatkem lekcí a připomínkami na Telegramu.</p>
+        <p class="proof">Příklady: TutorDesk, Music Studio CRM.</p>
+      </div>
+      <div class="card">
+        <span class="tag">E-shopy, služby</span>
+        <h3>Platby a propojení</h3>
+        <p><b>Problém:</b> platby se potvrzují ručně a systémy spolu nemluví.</p>
+        <p><b>Řešení:</b> online platby přes Stripe, automatické e-maily a potvrzení, Telegram boti, propojení vašeho webu s dalšími službami.</p>
+        <p class="proof">Příklad: Movie Store API.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Každá firma s klienty</span>
+        <h3>Boti pro messengery</h3>
+        <p><b>Problém:</b> klienti píšou do messengeru a vy pořád odpovídáte na stejné otázky a ručně zapisujete rezervace.</p>
+        <p><b>Řešení:</b> bot na Telegramu přijímá poptávky a rezervace, připomíná klientům termíny, odpovídá na časté dotazy, přijímá platby a posílá vám upozornění.</p>
+        <p class="proof">Primárně dělám Telegram, o dalších messengerech (Viber, WhatsApp) si povíme při konzultaci.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Malé firmy</span>
+        <h3>Web s logikou</h3>
+        <p><b>Problém:</b> vizitka ze stavebnice neumí přijímat rezervace ani platby.</p>
+        <p><b>Řešení:</b> webová služba s uživatelským účtem, rezervacemi, platbami a administrací pro vás.</p>
+        <p class="proof">Jde mi o logiku a data, ne o složitý design.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="news">
+  <div class="wrap news">
+    <div>
+      <div class="kicker">Hlavní příklad</div>
+      <h2>Zpravodajský kanál, který běží sám</h2>
+      <p class="lead">Automatický kanál zpráv pro Ukrajince v Česku. Každý den sám vybírá, co je důležité, dělá videa a publikuje je. Vytvořil jsem ho sám, od sběru zpráv až po zveřejnění.</p>
+      <p class="note">Kód tohoto projektu je uzavřený, ale na schůzce ukážu administraci a vysvětlím, jak vše funguje.</p>
+      <p style="margin-top:20px"><a class="btn ghost" href="https://t.me/ceskoua">Podívat se na kanál na Telegramu</a></p>
+    </div>
+    <ol class="steps">
+      <li>Sbírá zprávy ze sedmi českých médií a státní svátky</li>
+      <li>AI vybírá témata důležitá pro Ukrajince v Česku</li>
+      <li>Napíše scénář a vybere fotky nebo citace</li>
+      <li>Namluví text ukrajinsky a vytvoří titulky</li>
+      <li>Vytvoří svislé video s animací a hudbou</li>
+      <li>Publikuje na TikTok a YouTube Shorts, kratší zprávy jako příspěvky na Telegramu</li>
+      <li>Administrace: plán, autopilot, přehled nákladů na AI</li>
+    </ol>
+  </div>
+</section>
+
+<section class="alt" id="cases">
+  <div class="wrap">
+    <div class="kicker">Práce</div>
+    <h2>Projekty, které si můžete otevřít a ověřit</h2>
+    <div class="grid two">
+      <div class="card case wide">
+        <img src="/img/mluv.jpg" alt="Mluv" width="1200" height="900" loading="lazy">
+        <div class="body">
+          <h3>Mluv: web jazykové školy</h3>
+          <p>Online škola češtiny a konzultací k přijetí na české vysoké školy: popis služeb a cen, formulář poptávky, platba přes Monobank, uživatelský účet a platforma pro studenty. Běží online (v ukrajinštině).</p>
+          <div class="links"><a href="https://mluv.space/">Otevřít web</a></div>
+        </div>
+      </div>
+      <div class="card case">
+        <img src="/img/music-studio-crm.png" alt="Music Studio CRM" width="1200" height="900" loading="lazy">
+        <div class="body">
+          <h3>Music Studio CRM</h3>
+          <p>CRM pro hudební školu: žáci, učitelé, permanentky, rozvrh, upozornění na Telegramu. Běží online.</p>
+          <div class="links"><a href="https://music-studio-crm.onrender.com">Ukázka (admin / admin)</a><a href="https://github.com/hulchakk/music-studio-crm">Kód</a></div>
+        </div>
+      </div>
+      <div class="card case">
+        <img src="/img/tutordesk.png" alt="TutorDesk" width="1200" height="900" loading="lazy">
+        <div class="body">
+          <h3>TutorDesk</h3>
+          <p>Rozvrh a platby pro doučovatele: systém nedovolí dvě lekce ve stejnou dobu, platba balíčků přes ukrajinskou banku Monobank, automatický odpis lekcí.</p>
+          <div class="links"><a href="https://github.com/hulchakk/TutorDesk">Kód na GitHubu</a></div>
+        </div>
+      </div>
+      <div class="card case">
+        <img src="/img/movie-store.png" alt="Movie Store API" width="1200" height="900" loading="lazy">
+        <div class="body">
+          <h3>Movie Store API</h3>
+          <p>Backend internetového obchodu: registrace, košík, platba přes Stripe, e-maily a úlohy na pozadí, role uživatelů.</p>
+          <div class="links"><a href="https://github.com/hulchakk/py-cinema-api">Kód na GitHubu</a></div>
+        </div>
+      </div>
+      <div class="card case">
+        <img src="/img/insta-post-generator.png" alt="Instagram Post Generator" width="1200" height="900" loading="lazy">
+        <div class="body">
+          <h3>Instagram Post Generator</h3>
+          <p>Z údajů o akci a fotek napíše AI popisek, hashtagy a texty na slidy a pak se vytvoří hotové obrázky pro karusel nebo story.</p>
+          <div class="links"><a href="https://github.com/hulchakk/insta-post-generator">Kód na GitHubu</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="process">
+  <div class="wrap">
+    <div class="kicker">Jak spolupracujeme</div>
+    <h2>Nejdřív plán, potom práce</h2>
+    <p class="lead">Na začátku nic neriskujete: dokud neschválíte plán, nic neplatíte.</p>
+    <div class="grid two">
+      <div class="card stage">
+        <span class="tag">Krok 1 · zdarma</span>
+        <h3>Rozhovor a plán</h3>
+        <ul>
+          <li>Povídáme si o vašem nápadu a o tom, co vám dnes zabírá čas</li>
+          <li>Upřesním cíle, zdroje dat a omezení</li>
+          <li>Dostanete krátký plán: co děláme, z čeho se skládá, termíny a orientační cenu</li>
+        </ul>
+      </div>
+      <div class="card stage paid">
+        <span class="tag">Krok 2 · za úplatu</span>
+        <h3>Realizace</h3>
+        <ul>
+          <li>Domluvíme rozsah a platbu, obvykle po etapách</li>
+          <li>Pracuji a vy průběžně vidíte výsledek</li>
+          <li>Spuštění, vysvětlení, jak to funguje, a podpora</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="about">
+  <div class="wrap">
+    <div class="kicker">O mně</div>
+    <h2>Dmytro, Python vývojář</h2>
+    <p class="lead">Žiju v Ústí nad Labem a pracuji na dálku. Dřív jsem byl hudebník a učitel kytary, takže jsem zvyklý si práci sám organizovat a vysvětlovat věci srozumitelně. Studuji ekonomiku a management, proto se vždy zeptám, k čemu to firmě bude, než něco začnu stavět.</p>
+    <p class="lead" style="margin-top:12px">Nástroje: Python, FastAPI, Django, PostgreSQL, Celery, Docker, Telegram Bot API, Stripe, MQTT, práce s AI modely. Jazyky: ukrajinština, angličtina a čeština.</p>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <h2>Napište, co chcete automatizovat</h2>
+    <p class="lead">Napište pár vět o vaší firmě a úkolu. Odpovím a navrhnu termín bezplatné konzultace.</p>
+    <div class="actions">
+      <a class="btn" href="https://t.me/dmytrohulchak">Napsat na Telegram</a>
+      <a class="btn ghost" href="mailto:dmytrohulchak@gmail.com">dmytrohulchak@gmail.com</a>
+    </div>
+    <p class="meta"><a href="https://github.com/hulchakk">GitHub</a> · <a href="http://www.linkedin.com/in/dmytro-hulchak">LinkedIn</a></p>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 Dmytro Hulchak</footer>
+</body>
+</html>

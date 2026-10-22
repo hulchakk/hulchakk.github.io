@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dmytro Hulchak: business automation and web systems</title>
+<meta name="description" content="I automate routine work in small businesses: price and data collection, alerts, CRM, payments, content. We discuss your idea and plan for free; the build is separate.">
+<link rel="canonical" href="https://hulchakk.github.io/en/">
+<link rel="alternate" hreflang="uk" href="https://hulchakk.github.io/">
+<link rel="alternate" hreflang="cs" href="https://hulchakk.github.io/cs/">
+<link rel="alternate" hreflang="en" href="https://hulchakk.github.io/en/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Business automation and web systems">
+<meta property="og:description" content="Price and data collection, CRM, payments, content. We discuss your idea and plan for free.">
+<meta property="og:image" content="https://hulchakk.github.io/img/og.png">
+<meta property="og:url" content="https://hulchakk.github.io/en/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="logo" href="/en/">Dmytro Hulchak</a>
+    <div class="right">
+      <nav class="lang" aria-label="Language">
+        <a href="/">UA</a><a href="/cs/">CS</a><a href="/en/" aria-current="page">EN</a>
+      </nav>
+      <a class="btn small" href="https://t.me/dmytrohulchak">Message on Telegram</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <h1>I automate the routine in your business</h1>
+      <p class="lead">Price and data collection, alerts, CRM, payments, content: whatever you do by hand today can run on its own.</p>
+      <div class="actions">
+        <a class="btn" href="https://t.me/dmytrohulchak">Discuss your idea for free</a>
+        <a class="btn ghost" href="#cases">See my work</a>
+      </div>
+      <p class="free">The conversation about your idea and the project plan are free. You pay only for the build, and only after you approve the plan.</p>
+    </div>
+    <img class="photo" src="/img/photo.jpg" alt="Dmytro Hulchak" width="360" height="360">
+  </div>
+</section>
+
+<section class="alt" id="services">
+  <div class="wrap">
+    <div class="kicker">What I do</div>
+    <h2>Seven tasks people come to me with most often</h2>
+    <div class="grid three">
+      <div class="card">
+        <span class="tag">Real estate, shops</span>
+        <h3>Price and market tracker</h3>
+        <p><b>Problem:</b> competitor prices and new listings are tracked by hand.</p>
+        <p><b>Solution:</b> a program collects prices and listings from the sites you choose, compares them and sends the result to Telegram or a spreadsheet.</p>
+        <p class="proof">Whether your exact sites can be scraped, we check in the free call.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Factories, enterprises</span>
+        <h3>Equipment automation</h3>
+        <p><b>Problem:</b> readings (temperature, vibration, counters) are written down by hand, and failures are noticed late.</p>
+        <p><b>Solution:</b> I collect sensor data over MQTT (Mosquitto, paho-mqtt), keep a log and send an alert when something leaves the normal range.</p>
+        <p class="proof">Fits if your equipment already sends data or a sensor can be attached.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Studios, shops, schools</span>
+        <h3>Content without the daily routine</h3>
+        <p><b>Problem:</b> posts and videos take an hour every day.</p>
+        <p><b>Solution:</b> a service takes an event, product or news item, AI writes the text and builds the image or video, and you just approve it or let it publish automatically.</p>
+        <p class="proof">Example: the news channel below.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Schools, studios, freelancers</span>
+        <h3>CRM and records</h3>
+        <p><b>Problem:</b> clients, schedules and subscriptions live in a notebook or Excel.</p>
+        <p><b>Solution:</b> a web system with clients, a clash-free schedule, lesson balances and Telegram reminders.</p>
+        <p class="proof">Examples: TutorDesk, Music Studio CRM.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Online sales, services</span>
+        <h3>Payments and integrations</h3>
+        <p><b>Problem:</b> payments are confirmed by hand and your tools don't talk to each other.</p>
+        <p><b>Solution:</b> online payments through Stripe, automatic emails and receipts, Telegram bots, connecting your site to other services.</p>
+        <p class="proof">Example: Movie Store API.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Any business with clients</span>
+        <h3>Messenger bots</h3>
+        <p><b>Problem:</b> clients write in a messenger, and you answer the same questions and book appointments by hand.</p>
+        <p><b>Solution:</b> a Telegram bot takes requests and bookings, reminds clients, answers common questions, accepts payments and sends you alerts.</p>
+        <p class="proof">Telegram first; other messengers (Viber, WhatsApp) we can discuss on the call.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Any small business</span>
+        <h3>A site with logic</h3>
+        <p><b>Problem:</b> a brochure site from a site builder can't take bookings or payments.</p>
+        <p><b>Solution:</b> a web service with a client account, bookings, payments and an admin panel for you.</p>
+        <p class="proof">I focus on logic and data, not elaborate design.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="news">
+  <div class="wrap news">
+    <div>
+      <div class="kicker">Main example</div>
+      <h2>A news channel that runs itself</h2>
+      <p class="lead">An automated news channel for Ukrainians in Czechia. Every day it picks what matters, makes the videos and publishes them. I built it myself, from news collection to publishing.</p>
+      <p class="note">The code of this project is private, but on a call I'll show the admin panel and explain how it works.</p>
+      <p style="margin-top:20px"><a class="btn ghost" href="https://t.me/ceskoua">See the channel on Telegram</a></p>
+    </div>
+    <ol class="steps">
+      <li>Collects news from seven Czech outlets plus public holidays</li>
+      <li>AI picks the topics that matter to Ukrainians in Czechia</li>
+      <li>Writes the script and finds photos or quotes</li>
+      <li>Records the voice-over in Ukrainian and builds subtitles</li>
+      <li>Renders a vertical video with animation and music</li>
+      <li>Publishes to TikTok and YouTube Shorts, shorter news as Telegram posts</li>
+      <li>Admin panel: schedule, autopilot, AI cost tracking</li>
+    </ol>
+  </div>
+</section>
+
+<section class="alt" id="cases">
+  <div class="wrap">
+    <div class="kicker">Work</div>
+    <h2>Projects you can open and check</h2>
+    <div class="grid two">
+      <div class="card case wide">
+        <img src="/img/mluv.jpg" alt="Mluv" width="1200" height="900" loading="lazy">
+        <div class="body">
+          <h3>Mluv: a language school website</h3>
+          <p>An online school of Czech and university-admission consultations: services and prices, an application form, Monobank payments, a student account and a learning platform. Live online (in Ukrainian).</p>
+          <div class="links"><a href="https://mluv.space/">Open the site</a></div>
+        </div>
+      </div>
+      <div class="card case">
+        <img src="/img/music-studio-crm.png" alt="Music Studio CRM" width="1200" height="900" loading="lazy">
+        <div class="body">
+          <h3>Music Studio CRM</h3>
+          <p>CRM for a music school: students, teachers, subscriptions, schedule, Telegram notifications. Live online.</p>
+          <div class="links"><a href="https://music-studio-crm.onrender.com">Live demo (admin / admin)</a><a href="https://github.com/hulchakk/music-studio-crm">Code</a></div>
+        </div>
+      </div>
+      <div class="card case">
+        <img src="/img/tutordesk.png" alt="TutorDesk" width="1200" height="900" loading="lazy">
+        <div class="body">
+          <h3>TutorDesk</h3>
+          <p>Scheduling and payments for tutors: the system won't let two lessons overlap, lesson packages are paid through Monobank, and past lessons are written off automatically.</p>
+          <div class="links"><a href="https://github.com/hulchakk/TutorDesk">Code on GitHub</a></div>
+        </div>
+      </div>
+      <div class="card case">
+        <img src="/img/movie-store.png" alt="Movie Store API" width="1200" height="900" loading="lazy">
+        <div class="body">
+          <h3>Movie Store API</h3>
+          <p>Backend of an online store: registration, cart, Stripe payments, emails and background jobs, user roles.</p>
+          <div class="links"><a href="https://github.com/hulchakk/py-cinema-api">Code on GitHub</a></div>
+        </div>
+      </div>
+      <div class="card case">
+        <img src="/img/insta-post-generator.png" alt="Instagram Post Generator" width="1200" height="900" loading="lazy">
+        <div class="body">
+          <h3>Instagram Post Generator</h3>
+          <p>From event details and photos, AI writes the caption, hashtags and slide text, and ready images for a carousel or story are rendered.</p>
+          <div class="links"><a href="https://github.com/hulchakk/insta-post-generator">Code on GitHub</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="process">
+  <div class="wrap">
+    <div class="kicker">How we work</div>
+    <h2>Plan first, then the work</h2>
+    <p class="lead">You risk nothing at the start: until you approve a plan, you pay nothing.</p>
+    <div class="grid two">
+      <div class="card stage">
+        <span class="tag">Step 1 · free</span>
+        <h3>Discussion and plan</h3>
+        <ul>
+          <li>We talk about your idea and what eats your time today</li>
+          <li>I clarify goals, data sources and constraints</li>
+          <li>You get a short plan: what we build, its parts, timeline and a ballpark cost</li>
+        </ul>
+      </div>
+      <div class="card stage paid">
+        <span class="tag">Step 2 · paid</span>
+        <h3>Build</h3>
+        <ul>
+          <li>We agree on scope and payment, usually in stages</li>
+          <li>I build it and you see progress along the way</li>
+          <li>Launch, a walkthrough of how it works, and support</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="about">
+  <div class="wrap">
+    <div class="kicker">About me</div>
+    <h2>Dmytro, Python developer</h2>
+    <p class="lead">I live in Ústí nad Labem, Czechia, and work remotely. I used to be a musician and guitar teacher, so I'm used to organising my own work and explaining things clearly. I'm studying Economics and Management, so I always ask what a feature is for before I build it.</p>
+    <p class="lead" style="margin-top:12px">Tools: Python, FastAPI, Django, PostgreSQL, Celery, Docker, Telegram Bot API, Stripe, Monobank, MQTT, working with AI models. Languages: Ukrainian, English and Czech.</p>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <h2>Tell me what you want to automate</h2>
+    <p class="lead">Write a few words about your business and the task. I'll reply and suggest a time for a free call.</p>
+    <div class="actions">
+      <a class="btn" href="https://t.me/dmytrohulchak">Message on Telegram</a>
+      <a class="btn ghost" href="mailto:dmytrohulchak@gmail.com">dmytrohulchak@gmail.com</a>
+    </div>
+    <p class="meta"><a href="https://github.com/hulchakk">GitHub</a> · <a href="http://www.linkedin.com/in/dmytro-hulchak">LinkedIn</a></p>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 Dmytro Hulchak</footer>
+</body>
+</html>
