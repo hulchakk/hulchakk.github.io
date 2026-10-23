@@ -64,7 +64,7 @@
         <h3>Equipment automation</h3>
         <p><b>Problem:</b> readings (temperature, vibration, counters) are written down by hand, and failures are noticed late.</p>
         <p><b>Solution:</b> I collect sensor data over MQTT (Mosquitto, paho-mqtt), keep a log and send an alert when something leaves the normal range.</p>
-        <p class="proof">Fits if your equipment already sends data or a sensor can be attached. <a href="https://github.com/hulchakk/mqtt-sensor-alerts">Demo on GitHub</a> (simulated sensors).</p>
+        <p class="proof">Fits if your machine or device supports MQTT: I connect and configure it. For simple sensors I have basic C/C++ knowledge for microcontrollers. <a href="https://github.com/hulchakk/mqtt-sensor-alerts">Demo with a live dashboard</a>.</p>
       </div>
       <div class="card">
         <span class="tag">Studios, shops, schools</span>
@@ -137,6 +137,14 @@
           <h3>Mluv: a language school website</h3>
           <p>An online school of Czech and university-admission consultations: services and prices, an application form, Monobank payments, a student account and a learning platform. Live online (in Ukrainian).</p>
           <div class="links"><a href="https://mluv.space/">Open the site</a></div>
+        </div>
+      </div>
+      <div class="card case wide">
+        <img src="/img/mqtt-dashboard.png" style="object-fit:contain;background:#0f1620" alt="Equipment monitoring dashboard" width="1160" height="820" loading="lazy">
+        <div class="body">
+          <h3>Equipment monitoring dashboard (MQTT)</h3>
+          <p>A demo on simulated machines: live charts, online/offline status, a fault log and Telegram alerts. It accepts data from any device that speaks MQTT. The buttons on the dashboard send commands over MQTT.</p>
+          <div class="links"><a href="https://github.com/hulchakk/mqtt-sensor-alerts">Code and write-up on GitHub</a></div>
         </div>
       </div>
       <div class="card case">

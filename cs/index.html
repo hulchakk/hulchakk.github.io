@@ -64,7 +64,7 @@
         <h3>Automatizace zařízení</h3>
         <p><b>Problém:</b> hodnoty (teplota, vibrace, počitadla) se zapisují ručně a o poruše se dozvíte pozdě.</p>
         <p><b>Řešení:</b> sbírám data ze senzorů přes MQTT (Mosquitto, paho-mqtt), ukládám záznamy a posílám upozornění, když se něco vymkne normě.</p>
-        <p class="proof">Hodí se, pokud zařízení už data posílá nebo se k němu dá připojit senzor. <a href="https://github.com/hulchakk/mqtt-sensor-alerts">Ukázka na GitHubu</a> (simulované senzory).</p>
+        <p class="proof">Hodí se, pokud váš stroj nebo přístroj podporuje MQTT: připojím a nastavím ho. Pro jednoduché senzory mám základní znalosti C/C++ pro mikrokontroléry. <a href="https://github.com/hulchakk/mqtt-sensor-alerts">Ukázka s živým panelem</a>.</p>
       </div>
       <div class="card">
         <span class="tag">Studia, obchody, školy</span>
@@ -137,6 +137,14 @@
           <h3>Mluv: web jazykové školy</h3>
           <p>Online škola češtiny a konzultací k přijetí na české vysoké školy: popis služeb a cen, formulář poptávky, platba přes Monobank, uživatelský účet a platforma pro studenty. Běží online (v ukrajinštině).</p>
           <div class="links"><a href="https://mluv.space/">Otevřít web</a></div>
+        </div>
+      </div>
+      <div class="card case wide">
+        <img src="/img/mqtt-dashboard.png" style="object-fit:contain;background:#0f1620" alt="Panel pro sledování zařízení" width="1160" height="820" loading="lazy">
+        <div class="body">
+          <h3>Panel pro sledování zařízení (MQTT)</h3>
+          <p>Ukázka na simulovaných strojích: grafy v reálném čase, stav online/offline, záznam poruch a upozornění na Telegram. Přijímá data z jakéhokoli zařízení, které umí MQTT. Tlačítka v panelu samy posílají příkazy přes MQTT.</p>
+          <div class="links"><a href="https://github.com/hulchakk/mqtt-sensor-alerts">Kód a popis na GitHubu</a></div>
         </div>
       </div>
       <div class="card case">
